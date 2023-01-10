@@ -10,7 +10,7 @@ function powNumber(number, pow) {
   }
 
   return pow > 0
-    ? number * powNumber(number, --pow)
+    ? number * powNumber(number, pow--)
     : 1 / powNumber(number, Math.abs(pow));
 }
 
