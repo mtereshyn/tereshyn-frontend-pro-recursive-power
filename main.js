@@ -1,6 +1,6 @@
 function powNumber(number, pow) {
   if (number < 0) {
-    return "Number can`t to be < 0";
+    return "The number can't be negative";
   } else if (number === 0) {
     return 0;
   }
